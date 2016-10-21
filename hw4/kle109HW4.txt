@@ -1,0 +1,49 @@
+//Khoi le , kle109HW2
+
+//Function: A program that illustrates round-off errors using trig-identities
+//kle109HW4: is the MAIN FILE of the program 
+//kle109HW4t: PROTOTYPE FILE 
+			// my attempt at using only C code (no c++)
+			
+//Running function: compile kle109HW4.cpp in comand promt using "g++ kle109HW4.cpp"
+					//once compiled run the out file with "./outfilename"
+					
+//File outline and doc-strings:
+//Khoi le, Kle109HW4..
+
+//File doc strings are as follows:
+
+/* Comparison of Calculated Round-Off Errors*/
+/* Khoi Le, kle109Hw4*/
+/* Function: A program that illustrates round-off errors using trig-identities*/
+
+//intro Prints
+//get radian
+//function1: 1 + cot(u)^2 = csc(u)^2
+//function2: tan(u)^2 = (1 - cos(2*u)) / ((1 + cos(2*u))
+//function3: sin(u) - sin(v) = 2*cos((u+v)/2)*sin((u-v)/2) 
+//function4: log10(u^(1/v)) = log10(u)/v
+//function5: ln(u^(1/v)) = ln(u)/v
+//function1 values	
+//function2 values	
+//function3 values	
+//function4 values	
+//function5 values	
+//main function
+//Table Output
+//summary
+
+// Creatator's note**
+// u and v are positive values 
+// u can not equal to v
+
+// It may seem overly redundent to define variables as "float" for example and then redefine the ...
+// "root" functions or variables inside the function as "floats" as well. How ever since we are testing the errors.
+// for "floats", "doubles", and "long doubles". I took extra precaution to keep my values in the state that's being tested.
+// summary for outputs are ran with double longs so the floats or doubles that are inputed stays accurate
+
+// I do not know if my outputs are correct since my calculator is not as precise in calculating values, 
+// my double and long double values seem to equal to each other so i do not know if that is because my computer can't handle long doubles...
+// or if its from an error in my function. 
+// I am using a 64 bit to test these values so answers may change on other machines.
+
